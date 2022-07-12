@@ -8,7 +8,7 @@ export const Navbar: React.FC = () => {
   const closeSidebar = () => setSidebar(() => ({ open: false }));
 
   return (
-    <nav className="mt-10 p-container flex justify-between items-center laptop:mt-12">
+    <nav className="mt-10 p-container flex justify-between items-center laptop:mt-12 laptop:pb-1.5">
       <Link to="/" aria-label="Homepage">
         <img src="/assets/logo-bookmark.svg" alt="" />
       </Link>
@@ -41,9 +41,9 @@ export const Navbar: React.FC = () => {
         <Link
           to="/"
           className={`mt-6 h-12 max-w-sm mx-auto grid place-items-center rounded-md border-2
-          border-white font-sans font-medium text-white text-xl tracking-widest  
-          laptop:mt-0 laptop:border-red laptop:bg-red laptop:px-8 laptop:h-10 shadow-[0px_8px_8px_-4px_rgba(73,93,207,.20012)]
-          laptop:text-sm laptop:hover:bg-white laptop:hover:text-red laptop:hover:border-red
+            border-white font-sans font-medium text-white text-xl tracking-widest  
+            laptop:mt-0 laptop:border-red laptop:bg-red laptop:px-8 laptop:h-10 shadow-[0px_8px_8px_-4px_rgba(73,93,207,.20012)]
+            laptop:text-sm laptop:hover:bg-white laptop:hover:text-red laptop:hover:border-red
           `}
         >
           LOGIN
