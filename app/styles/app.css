@@ -823,6 +823,18 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[1\.875rem\] {
+  font-size: 1.875rem;
+}
+
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+
+.text-\[1\.25rem\] {
+  font-size: 1.25rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -889,6 +901,14 @@ video {
 
 .\[line-height\:200\%\] {
   line-height: 200%;
+}
+
+.\[line-height\:3\.25rem\] {
+  line-height: 3.25rem;
+}
+
+.\[line-height\:120\%\] {
+  line-height: 120%;
 }
 
 .p-container {
@@ -1079,6 +1099,14 @@ video {
     grid-template-columns: 33.75rem 1fr;
   }
 
+  .laptop\:grid-cols-\[34rem_1fr\] {
+    grid-template-columns: 34rem 1fr;
+  }
+
+  .laptop\:grid-cols-\[34\.5rem_1fr\] {
+    grid-template-columns: 34.5rem 1fr;
+  }
+
   .laptop\:flex-row {
     flex-direction: row;
   }
@@ -1170,6 +1198,14 @@ video {
     line-height: 1.75rem;
   }
 
+  .laptop\:text-\[3rem\] {
+    font-size: 3rem;
+  }
+
+  .laptop\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
   .laptop\:tracking-normal {
     letter-spacing: 0em;
   }
@@ -1189,6 +1225,14 @@ video {
 
   .laptop\:\[font-size\:16px\] {
     font-size: 16px;
+  }
+
+  .laptop\:\[line-height\:1\%\] {
+    line-height: 1%;
+  }
+
+  .laptop\:\[line-height\:162\%\] {
+    line-height: 162%;
   }
 
   .laptop\:hover\:border-red:hover {

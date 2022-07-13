@@ -1,5 +1,6 @@
 import { ActionLink } from "../../buttons/action-link/action-link";
 import { Text } from "~/components/typography/text/text";
+import { Title } from "~/components/typography/title/title";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -22,14 +23,9 @@ export const HeroSection: React.FC = () => {
         </div>
       </div>
       <header className="laptop:order-1 laptop:mt-[4.4375rem] ">
-        <h1
-          className={
-            "font-sans font-medium text-3xl text-center tracking-wide text-dark [line-height:133%] " +
-            "laptop:text-5xl laptop:text-left laptop:tracking-normal laptop:[line-height:108%] "
-          }
-        >
+        <Title type="headline" className="text-center laptop:text-left">
           A Simple Bookmark Manager
-        </h1>
+        </Title>
         <Text className="mt-4 laptop:mt-6 text-center laptop:text-left ">
           A clean and simple interface to organize your favourite websites. Open a new
           browser tab and see your sites load instantly. Try it for free.

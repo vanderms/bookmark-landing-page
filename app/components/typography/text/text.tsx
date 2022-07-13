@@ -2,16 +2,16 @@ import React from "react";
 
 interface TextProps {
   children: React.ReactNode;
-  element?: string;
+  as?: string;
   className?: string;
   opacity?: 50 | 75 | 100;
   size?: "sm" | "normal";
 }
 
 export const Text: React.FC<TextProps> = (props) => {
-  if (props.element) {
+  if (props.as) {
     return React.createElement(
-      props.element,
+      props.as,
       {
         className:
           "font-sans [font-size:15px] text-dark " +
