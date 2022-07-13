@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
         <img src="/assets/icon-hamburger.svg" alt="" />
       </button>
       <div
-        className={`fixed top-0 w-full h-screen px-[8.5333333%] py-10 bg-dark-opaque [transition:left_.25s]        
+        className={`fixed z-50 top-0 w-full h-screen px-[8.5333333%] py-10 bg-dark-opaque [transition:left_.25s]        
           laptop:static laptop:w-auto laptop:h-auto laptop:bg-inherit laptop:flex laptop:gap-11 laptop:p-0
         ${sidebar.open ? "left-0" : "left-full"}
         `}

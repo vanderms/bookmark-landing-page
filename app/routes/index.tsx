@@ -1,10 +1,12 @@
 import { Navbar } from "~/components/navbar/navbar";
+import { HeroSection } from "~/components/sections/hero";
 
 
 export default function Index() {
   return (
-    <>
-      <Navbar/>
-    </>
+    <div className="m-container">
+      <Navbar />
+      <HeroSection/>
+    </div>
   );
 }

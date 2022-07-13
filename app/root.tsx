@@ -17,7 +17,12 @@ export const meta: MetaFunction = () => ({
 });
 
 export function links() {
-  return [{ rel: "stylesheet", href: styles }]
+  return [
+    { rel: "stylesheet", href: styles },
+    { rel: "preconnect", href: "https://fonts.googleapis.com" },
+    { rel: "preconnect", href: "https://fonts.gstatic.com" },
+    { href: "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,400&display=swap", rel: "stylesheet"},
+  ]
 }
 
 

@@ -2,12 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .p-container {
-  padding-inline: 8.5333333%;  
+  padding-inline: 8.5333333%;
 }
 
-@media screen and (min-width: 1200px){
-  .p-container{
-    padding-inline: calc(50% - 555px);  
+.p-container-r {
+  padding-right: 8.5333333%;
+}
+
+.p-container-l {
+  padding-left: 8.5333333%;
+}
+
+.m-container {
+  width: min(100%, 1440px);
+  overflow: hidden;
+  margin-inline: auto;
+  padding-bottom: 100vh;  
+}
+
+@media screen(laptop) {
+  .p-container {
+    padding-inline: calc(50% - 555px);
+  }
+
+  .p-container-r {
+    padding-right: calc(50% - 555px);
+  }
+
+  .p-container-l {
+    padding-left: calc(50% - 555px);
   }
 }
