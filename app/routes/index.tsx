@@ -1,12 +1,14 @@
 import { Navbar } from "~/components/navbar/navbar";
-import { HeroSection } from "~/components/sections/hero";
+import { FeaturesSection } from "~/components/sections/features/features";
+import { HeroSection } from "~/components/sections/hero/hero";
 
 
 export default function Index() {
   return (
     <div className="m-container">
       <Navbar />
-      <HeroSection/>
+      <HeroSection />
+      <FeaturesSection/>
     </div>
   );
 }

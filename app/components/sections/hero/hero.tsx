@@ -1,4 +1,5 @@
-import { ActionLink } from "../buttons/action-link/action-link";
+import { ActionLink } from "../../buttons/action-link/action-link";
+import { Text } from "~/components/typography/text/text";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -29,15 +30,10 @@ export const HeroSection: React.FC = () => {
         >
           A Simple Bookmark Manager
         </h1>
-        <p
-          className={
-            "mt-4 font-sans [font-size:15px] text-center text-dark [line-height:167%] opacity-50 " +
-            "laptop:mt-6 laptop:text-lg laptop:text-left "
-          }
-        >
+        <Text className="mt-4 laptop:mt-6 text-center laptop:text-left ">
           A clean and simple interface to organize your favourite websites. Open a new
           browser tab and see your sites load instantly. Try it for free.
-        </p>
+        </Text>
         <div className="mt-8 flex items-center justify-center gap-3 laptop:justify-start laptop:gap-4">
           <ActionLink size="sm" type="primary" href="/">
             Get it on Chrome
