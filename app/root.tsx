@@ -16,12 +16,14 @@ export const meta: MetaFunction = () => ({
   viewport: "width=device-width,initial-scale=1",
 });
 
+
+
 export function links() {
   return [
     { rel: "stylesheet", href: styles },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     { rel: "preconnect", href: "https://fonts.gstatic.com" },
-    { href: "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,400&display=swap", rel: "stylesheet"},
+    { href: "https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap", rel: "stylesheet"},
   ]
 }
 
