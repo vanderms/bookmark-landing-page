@@ -750,6 +750,10 @@ video {
   max-width: 536px;
 }
 
+.max-w-\[37\.5rem\] {
+  max-width: 37.5rem;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1182,6 +1186,16 @@ video {
   color: hsl(0 94% 66% / var(--tw-text-opacity));
 }
 
+@media (min-width: 680px) {
+  .tablet\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .tablet\:max-w-\[37\.5rem\] {
+    max-width: 37.5rem;
+  }
+}
+
 @media (min-width: 1200px) {
   .laptop\:static {
     position: static;
@@ -1338,6 +1352,10 @@ video {
 
   .laptop\:w-\[118\.5185185\%\] {
     width: 118.5185185%;
+  }
+
+  .laptop\:max-w-full {
+    max-width: 100%;
   }
 
   .laptop\:grid-cols-\[33\.75rem_1fr\] {

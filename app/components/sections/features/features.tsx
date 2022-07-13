@@ -41,19 +41,19 @@ export const FeaturesSection: React.FC = () => {
           Easy Sharing
         </FeatureButton>
       </div>
-      <article className="mt-[4.5rem] laptop:grid grid-cols-[1fr,27.8125rem] gap-[7.8125rem] ">
+      <article className="mt-[4.5rem] laptop:grid grid-cols-[1fr,27.8125rem] gap-[7.8125rem] max-w-[37.5rem] mx-auto laptop:max-w-full">
         <div className="relative pb-[11.8971061%] laptop:pb-[16.4814815%] laptop:flex justify-end">
           <div
             className={`relative z-10 
               ${currentCard === CardType.BOOKMARK ? "w-[min(100%,536px)]" : ""}
-              ${currentCard === CardType.SHARE ? "w-[min(100%,478px)]" : ""}
-              ${currentCard === CardType.SPEEDY ? "w-[min(100%,440px)]" : ""}`}
+              ${currentCard === CardType.SPEEDY ? "w-[min(100%,478px)]" : ""}
+              ${currentCard === CardType.SHARE ? "w-[min(100%,440px)]" : ""}`}
           >
             <div
               className={`relative w-full
                 ${currentCard === CardType.BOOKMARK ? "pb-[64.5522388%]" : ""}
-                ${currentCard === CardType.SHARE ? "pb-[87.0292887%] " : ""}
-                ${currentCard === CardType.SPEEDY ? "pb-[86.3636364%]" : ""}`}
+                ${currentCard === CardType.SPEEDY ? "pb-[87.0292887%] " : ""}
+                ${currentCard === CardType.SHARE ? "pb-[86.3636364%]" : ""}`}
             >
               <img
                 src={card.image.url}
