@@ -79,7 +79,7 @@ export const FeaturesSection: React.FC = () => {
           >
             {card.description}
           </Text>
-          <div className="mt-4 grid place-items-center laptop:mt-8 justify-start">
+          <div className="mt-4 grid place-items-center laptop:mt-8 laptop:justify-start">
             <ActionLink size="sm" href={card.href} type="primary">
               More Info
             </ActionLink>
