@@ -17,8 +17,7 @@
 .m-container {
   width: min(100%, 1440px);
   overflow: hidden;
-  margin-inline: auto;
-  padding-bottom: 100vh;
+  margin-inline: auto;  
 }
 
 @media (max-width: 370px) {

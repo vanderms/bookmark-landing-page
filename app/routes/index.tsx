@@ -4,6 +4,7 @@ import { FeaturesSection } from "~/components/sections/features/features";
 import { HeroSection } from "~/components/sections/hero/hero";
 import { FaqSection } from "~/components/sections/faq/faq";
 import { CallToActionSection } from "~/components/sections/call-to-action/call-to-action";
+import { Footer } from "~/components/sections/footer/footer";
 
 export default function Index() {
   return (
@@ -15,6 +16,7 @@ export default function Index() {
         <DownloadSection />
         <FaqSection />
         <CallToActionSection />
+        <Footer/>
       </main>
     </div>
   );
