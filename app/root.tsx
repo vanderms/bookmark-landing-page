@@ -20,11 +20,20 @@ export const meta: MetaFunction = () => ({
 
 export function links() {
   return [
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      href: "/assets/favicon-32x32.png",
+    },
     { rel: "stylesheet", href: styles },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     { rel: "preconnect", href: "https://fonts.gstatic.com" },
-    { href: "https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap", rel: "stylesheet"},
-  ]
+    {
+      href: "https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap",
+      rel: "stylesheet",
+    },
+  ];
 }
 
 
