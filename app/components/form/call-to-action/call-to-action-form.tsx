@@ -17,7 +17,7 @@ export const CallToActionForm: React.FC = () => {
       }}
     >
       {(formik) => (
-        <Form className="grid grid-cols-1 gap-4 ">
+        <Form className="grid grid-cols-1 gap-4 tablet:grid-cols-[300fr,126fr]">
           <label className="w-full relative">
             <span className="sr-only">Enter your email address</span>
             {formik.errors.email && formik.touched.email && (
