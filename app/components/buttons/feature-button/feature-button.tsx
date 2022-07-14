@@ -1,5 +1,3 @@
-
-
 export const FeatureButton: React.FC<{
   onClick: () => void;
   children: React.ReactNode;
@@ -7,7 +5,8 @@ export const FeatureButton: React.FC<{
 }> = ({ onClick, children, active }) => {
   return (
     <div
-      className={`relative h-[3.625rem] flex justify-center tracking-wide items-center first-of-type:border-t border-b border-[rgba(73,93,207,.20012)] 
+      className={`relative h-[3.625rem] flex justify-center tracking-wide items-center 
+      first-of-type:border-t border-b border-[rgba(73,93,207,.20012)] 
       laptop:first-of-type:border-t-0  laptop:h-[3.0625rem] laptop:items-start ]`}
     >
       <button
