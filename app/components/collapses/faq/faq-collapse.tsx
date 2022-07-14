@@ -8,15 +8,12 @@ interface FaqCollapseProps {
 }
 
 export const FaqCollapse: React.FC<FaqCollapseProps> = (props) => {
-  const [open, setOpen] = useState<boolean>(false);  
+  const [open, setOpen] = useState<boolean>(false);
 
   return (
     <details
       open={open}
-      className={`
-      
-    ${props.className ?? ""}
-    `}
+      className={`${props.className ?? ""}`}
       onToggle={(e) => setOpen(e.currentTarget.open)}
     >
       <summary>
@@ -37,7 +34,11 @@ export const FaqCollapse: React.FC<FaqCollapseProps> = (props) => {
           </svg>
         </span>
       </summary>
-      <div className={`transition-[max-height] overflow-hidden duration-500 ${open ? "max-h-96" : "max-h-0"}`}>
+      <div
+        className={`transition-[max-height] overflow-hidden duration-500 ${
+          open ? "max-h-96" : "max-h-0"
+        }`}
+      >
         {props.children}
       </div>
     </details>
